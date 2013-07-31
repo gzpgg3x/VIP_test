@@ -14,9 +14,10 @@ urlpatterns = patterns('',
 #    url(r'^$', direct_to_template, {'template': 'yfpp/thanks.html'}, name='thanks'),
     # url(r'^privacy/', direct_to_template, {'template': 'yfpp/privacy.html'}, name='thanks'),
     url(r'^privacy/', TemplateView.as_view(template_name="yfpp/privacy.html")),      
-    url(r'^fucking-check/', 'yfpp.views.fucking_check', name='fucking_check'),
-    url(r'^results/', 'yfpp.views.results', name='results'),
-    url(r'^client/', 'yfpp.views.client', name='client'),
+    url(r'^fucking-check/', 'yfpp_app.views.fucking_check', name='fucking_check'),
+    # url(r'^fucking-check/', 'views.fucking_check', name='fucking_check'),    
+    url(r'^results/', 'yfpp_app.views.results', name='results'),
+    url(r'^client/', 'yfpp_app.views.client', name='client'),
     # url(r'^yfpp/', include('yfpp.foo.urls')),
 
     # Uncomment the admin/doc line below to enable admin documentation:

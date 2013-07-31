@@ -147,6 +147,7 @@ INSTALLED_APPS = (
 
 # Additional constants
 # YFPP_CIVIC_API_KEY = os.environ['YFPP_CIVIC_API_KEY']
+YFPP_CIVIC_API_KEY = "AIzaSyBwFsgFajTqkpBzETIBijui5D1AHzfsBb8"
 
 # A sample logging configuration. The only tangible logging
 # performed by this configuration is to send an email to
